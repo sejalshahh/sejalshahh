@@ -4,11 +4,6 @@
 body{
     background-color: #BED7DC;
 }
-/* .main_img{
-    width: 160px;
-    height: 120px;
-    opacity: 0.7;
-} */
 .nav-1{
     display: flex;
     font-size: 20px;
@@ -473,6 +468,11 @@ body{
     margin-top:50px;
     margin-left: 300px;
   }
+  .btn{
+    margin: auto;
+    width: 300px;
+    height: 50px;
+  }
   .Button{
     margin: auto;
     width: 300px;
@@ -812,6 +812,11 @@ body{
         width: 270px;
         height: 20px;
         margin-top: 20px;
+      }
+      .btn{
+        margin: auto;
+        width: 270px;
+        height: 50px;
       }
       .course-button{
         margin: auto;
