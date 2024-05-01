@@ -504,20 +504,20 @@ body{
         font-size: 12px;
         justify-content: center;
         align-items: center;
-        width: 500px;/*1500px;*/
+        width: 400px;/*1500px;*/
         height: 200px;/*1200px;*/
     }
     .main-heading{
-        font-size: 50px; /*60px;*/
-        margin-left: 20px;/*20px;*/
+        font-size: 40px; /*60px;*/
+        margin-left: 30px;/*20px;*/
         
     }
     .main-sub-heading{
         margin-top: 45px;/*50px;*/
-        margin-left: 10px;
+        margin-left: 12px;
         margin-right: 0px;/*45px;*/
         padding: 2px;/*5px;*/
-        font-size: 30px;/*60px;*/
+        font-size: 25px;/*60px;*/
     }
     .nav-1 h1{
         text-align: center;
@@ -526,7 +526,6 @@ body{
     .social_media{
         margin-left: 8px;/*60px;*/ 
         margin-bottom: 120px;
-        margin-right: 110px;
     }
     .social_media i{
         display: inline-block;
@@ -548,7 +547,7 @@ body{
     }
     .nav-2 p{
         padding: 8px;/*30px;*/
-        font-size: 14px;/*18px;*/
+        font-size: 13px;/*18px;*/
         margin-top: 0px;/*25px;*/
         border-bottom: 2px solid transparent;
     }
@@ -563,6 +562,7 @@ body{
         margin-top: 25px;/*50px;*/
         margin-left: 2px;/*20px;*/
         margin-right: 0px;/*20px;*/
+        overflow: auto;
         white-space: nowrap;
         padding: 5px;/*10px;*/
     }
@@ -822,4 +822,5 @@ body{
         width: 270px;
         height: 50px;
       }
+    
   }
