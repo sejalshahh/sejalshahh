@@ -1,1 +1,821 @@
+*{
+    margin: 0px;
+}
+body{
+    background-color: #BED7DC;
+}
+/* .main_img{
+    width: 160px;
+    height: 120px;
+    opacity: 0.7;
+} */
+.nav-1{
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 1500px;
+    height: 120px;
+}
+.main-heading{
+    font-size: 60px;
+    margin-bottom: 12px;
+    margin-left: 20px;
+    font-family: "Dancing Script", cursive;
+    color: #9c3737;
+}
+.main-sub-heading{
+    margin-top: 50px;
+    margin-right: 60px;
+    padding: 5px;
+    font-size: 25px;
+    font-family: "Dancing Script", cursive;
+    color: #237884;
+}
+.nav-1 h1{
+    text-align: center;
+    margin-left: 100px;
+}
+.social_media{
+    margin-left: 60px; 
+}
+.social_media i{
+    display: inline-block;
+    margin-left: 20px;
+    border-radius: 60px;
+    box-shadow: 0 0 2px black;
+    padding: 0.5em 0.6em;
+    
+}
+.social_media a{
+    color: black;
+}
+.social_media i:hover{
+    box-shadow: 0 0 2px black;
+}
 
+.nav-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1500px;
+    height: 50px;
+}
+.nav-2 p{
+    padding: 30px;
+    font-size: 18px;
+    margin-top: 25px;
+    border-bottom: 2px solid transparent;
+}
+.nav-2 p:hover{
+    border-bottom: 1px solid rgb(17, 1, 82); 
+}
+.nav-2 a{
+    color: black;
+    text-decoration: none;
+}
+.scroll{
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+}
+.scroll-img{
+    width: 320px;
+    height: 350px;
+    padding: 8px;
+}
+.port-main-img{
+    margin-top: 50px;
+    padding-left: 600px;
+    width: 280px;
+    height: 315px;
+}
+.port-button{
+    border: none;
+    border-radius: 1rem;
+    margin-top: 15px;
+    margin-left: 650px;
+    width: 200px;
+    height: 40px;
+    color: #9c3737;
+    font-size: 18px;
+    background-color: #f4eec9;
+    font-family: "Cairo", sans-serif;
+}
+.port-button:hover{
+    background-color:#B3C8CF;
+}
+.heading{
+    text-align: center;
+    margin-top: 55px;
+    font-family: "Noto Sans", sans-serif;
+    color: #643843;
+    font-size: 50px;
+}
+.about-me{
+    margin-top: 80px;
+    width: 1100px;
+    height: 500px;
+
+}
+.about-mia{
+    float: left;
+    width: 300px;
+    height: 400px;
+    margin-left: 300px;
+    padding-right: 110px;
+}
+.about-me-text h1{
+    font-size: 32px;
+    text-align: center;
+    margin-right: 10px;
+    font-family: "Oswald", sans-serif;
+    color: #237884;
+}
+.about-me-text p{
+    margin-top: 5px;
+    font-size: 22px;
+    font-family: "Nunito Sans", sans-serif;   
+}
+.about-me-text em{
+    color: brown;
+}
+.our-team{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.team-img{
+    width: 200px;
+    height: 300px;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+.team_1{
+    background-color: #6a89a1;
+    padding: 20px;
+    border-radius: 12px;
+}
+.team_2{
+    background-color: #6a89a1;
+    padding: 20px;
+    border-radius: 12px;
+}
+.team_3{
+    background-color: #6a89a1;
+    padding: 20px;
+    border-radius: 12px;
+}
+.team-name{
+    font-size: 30px;
+    text-align: center;
+    color: #f3f6f8;
+    font-family: "Oswald", sans-serif;
+}
+.team-role{
+    margin-top: 5px;
+    font-size: 22px;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    color: rgb(236, 229, 221);
+}
+.team-info{
+    width: 500px;
+    height: 500px;
+    padding: 10px;
+    align-items: center;
+    margin-left: 500px;
+    margin-top: 30px;
+}
+.team-sub-info{
+    font-size: 20px;
+    margin-top: 20px;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.portf-cat{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.portf-bridal{
+    background-color: #6a89a1;
+    font-family: "Oswald", sans-serif;
+    width: 430px;
+    height: 370px;
+    padding: 20px;
+    border-radius: 12px;
+}
+.portf-no-makeup{
+    background-color: #6a89a1;
+    font-family: "Oswald", sans-serif;
+    width: 430px;
+    height: 370px;
+    padding: 20px;
+    border-radius: 12px;
+}
+.portf-trans{
+    background-color: #6a89a1;
+    font-family: "Oswald", sans-serif;
+    width: 430px;
+    height: 360px;
+    padding: 20px;
+    border-radius: 12px;
+}
+.port-img{
+    width: 400px;
+    height: 300px;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+.port-heading{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    font-family: "Playfair Display", serif;
+    color: #f4eec9;
+}
+.button-click{
+    border: none;
+    border-radius: 1rem;
+    margin-top: 2px;
+    margin-left: 120px;
+    width: 200px;
+    height: 40px;
+    color: #9c3737;
+    font-size: 20px;
+    background-color: #f4eec9;
+    font-family: "Cairo", sans-serif;
+}
+.button-click:hover{
+    background-color: rgb(145, 127, 161);
+}
+.look-img{
+    height: 400px;
+    width: 400px;
+    padding: 10px;
+}
+.sub-heading{
+    font-size: 35px;
+    text-align: center;
+    margin-top: 50px;
+}
+.grid-item{
+    padding: 15px; 
+    text-align: center;
+    margin-top: 3%;
+}
+.beauty-services{
+    width: 500px;
+    height: 500px;
+    padding: 10px;
+    align-items: center;
+    margin-left: 500px;
+}
+.beauty-services p{
+    margin-top: 30px;
+    font-size: 25px;
+    text-align: center;
+    align-items: center;
+}
+.beauty-services-heading{
+    font-size: 35px;
+    text-align: center;
+    margin-top: 50px;
+}
+.copyright{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 100px;
+    font-family: "Jost", sans-serif;
+    
+}
+.testimonials{
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 300px;
+}
+.test-img{
+    width: 1000px;
+    height: 300px;
+    padding: 10px;
+}
+.contact-i{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 10px;
+}
+.contact-p{
+    font-size: 25px;
+    margin-top: 30px;
+    margin-left: 70px;
+    text-align: left;
+}
+.get-in-touch{
+    width: 400px;
+    height: 300px;
+    margin-left: 550px;
+    margin-top: 30px;
+}
+.contact-details{
+    width: 500px;
+    height: 500px;
+    padding: 10px;
+    align-items: center;
+    margin-left: 500px;
+}
+.studio-courses{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.studio-bridal{
+    background-color: #6a89a1;
+    width: 430px;
+    height: 370px;
+    padding: 20px;
+    border-radius: 12px;
+}
+.studio-hairstyle{
+    background-color: #6a89a1;
+    width: 430px;
+    height: 370px;
+    padding: 20px;
+    border-radius: 12px;
+}
+.studio-makeup{
+    background-color: #6a89a1;
+    width: 430px;
+    height: 370px;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.slideshow-container {
+    width: 1250px;
+    position: relative;
+    margin: auto;
+    margin-top: 50px;
+}
+.slideshow-studio{
+    width: 1000px;
+    height: 500px;
+}
+.slideshow{
+    display: none;
+}
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+  
+.active, .dot:hover {
+    background-color: #717171;
+}
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+.address-info{
+    font-size: 25px;
+    margin-left: 630px;    
+    padding: 10px;
+}
+.address{
+    align-items: center;
+    margin-top: 20px;
+}
+.dropbtn:hover{
+    background-color: #b17da2;
+}
+.dropbtn {
+    padding: 10px;
+    font-size: 27px;
+    text-align: center;
+    list-style-type: none;
+    background-color: #49243E;
+    opacity: 0.8;
+    color: white;
+    font-family: "Ubuntu", sans-serif;
+  }
+  .dropdown {
+    align-items: center;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 30px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 30px;
+    padding: 8px;
+  }
+  .services-list{
+    margin: auto;
+    }
+  .dropdown-content{
+    display: none;
+    margin-left: 50px;
+    position: absolute;
+    background-color: #f1f1f1;
+    width: 300px;
+    height: auto;
+    z-index: 1;
+  }
+  .dropdown-content p{
+    text-align: left;
+    font-size: 20px;
+    margin-left: 12px;
+    margin-bottom: 5px;
+    margin-top: 7px;
+  }
+  .dropdown:hover .dropdown-content {display: block;}
+  .course-img{
+    width: 1000px;
+    height: auto;
+    margin-top:50px;
+    margin-left: 300px;
+  }
+  .Button{
+    margin: auto;
+    width: 300px;
+    height: 50px;
+    margin-top: 20px;
+  }
+  
+  .course-button{
+    margin: auto;
+    border: none;
+    border-radius: 1rem;
+    width: 300px;
+    height: 50px;
+    align-items: center;
+    font-size: 25px;
+    margin-top: 20px;
+    color: #9c3737;
+    background-color: #f4eec9;
+    font-family: "Cairo", sans-serif;
+  }
+  .course-button:hover{
+    background-color: rgb(145, 127, 161); 
+  }
+
+  /* RESPONSIVENESS */
+  @media screen and (max-width:600px){
+    .nav-1{
+        display: flex;
+        font-size: 12px;
+        justify-content: center;
+        align-items: center;
+        width: 500px;/*1500px;*/
+        height: 200px;/*1200px;*/
+    }
+    .main-heading{
+        font-size: 50px; /*60px;*/
+        margin-left: 20px;/*20px;*/
+        
+    }
+    .main-sub-heading{
+        margin-top: 45px;/*50px;*/
+        margin-left: 10px;
+        margin-right: 0px;/*45px;*/
+        padding: 2px;/*5px;*/
+        font-size: 30px;/*60px;*/
+    }
+    .nav-1 h1{
+        text-align: center;
+        margin-left: 10px;/*100px;*/
+    }
+    .social_media{
+        margin-left: 8px;/*60px;*/ 
+        margin-bottom: 120px;
+        margin-right: 110px;
+    }
+    .social_media i{
+        display: inline-block;
+        margin-left: 8px;/*20px;*/
+        border-radius: 60px;
+        box-shadow: 0 0 2px black;
+        padding: 5px;
+        font-size: 10px;
+    }
+    .social_media i:hover{
+        box-shadow: 0 0 2px black;
+    }
+    .nav-2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 400px;/*800px;*/
+        height: 50px;/*50px;*/
+    }
+    .nav-2 p{
+        padding: 8px;/*30px;*/
+        font-size: 14px;/*18px;*/
+        margin-top: 0px;/*25px;*/
+        border-bottom: 2px solid transparent;
+    }
+    .nav-2 p:hover{
+        border-bottom: 1px solid rgb(25, 2, 116); 
+    }
+    .nav-2 a{
+        text-decoration: none;
+        color: black;
+    }
+    .scroll{
+        margin-top: 25px;/*50px;*/
+        margin-left: 2px;/*20px;*/
+        margin-right: 0px;/*20px;*/
+        overflow: auto;
+        white-space: nowrap;
+        padding: 5px;/*10px;*/
+    }
+    .scroll-img{
+        width: 130px;/*320px;*/
+        height: 150px;/*350px;*/
+        padding: 5px;/*8px;*/
+    }
+    .port-main-img{
+        margin-top: 40px;/*50px;*/
+        padding-left: 100px;/*600px;*/
+        width: 200px;/*280px;*/
+        height: 270px;/*315px;*/
+    }
+    .port-button{
+        margin-top: 10px;/*15px;*/
+        margin-left: 125px;/*650px;*/
+        width: 150px;/*200px;*/
+        height: 40px;/*40px;*/
+        background-color: rgb(196, 184, 206);
+    }
+    .port-button:hover{
+        background-color:rgb(145, 127, 161);
+    }
+    .heading{
+        text-align: center;
+        margin-top: 45px;/*55px;*/
+        font-size: 30px;
+    }
+    .about-me{
+        margin-top: 80px;/*80px;*/
+        width: 400px;/*1100px;*/
+        height: 400px;/*500px;*/
+    }
+    .about-mia{
+        float: left;
+        width: 200px;/*300px;*/
+        height: 300px;/*400px;*/
+        margin-left: 2px;/*300px;*/
+        padding-right: 15px;/*110px;*/
+    }
+    .about-me-text h1{
+        font-size: 25px;/*32px;*/
+        text-align: center;
+        margin-right: 5px;/*10px;*/
+    }
+    .about-me-text p{
+        margin-top: 5px;/*5px;*/
+        font-size: 20px; /*25px;*/
+        margin-left: 5px;
+    }
+    .about-me-text em{
+        color: brown;
+    }
+    .our-team{
+        margin-top: 50px;/*50px;*/
+        flex-wrap: wrap;
+    }
+    .team-img{
+        width: 250px;/*200px;*/
+        height: 350px;/*300px;*/
+    }
+    .team_1{
+        margin-bottom: 25px;
+    }
+    .team_2{
+        margin-bottom: 25px;
+    }
+    .team_3{
+        margin-bottom: 25px;
+    }
+    .team-name{
+        font-size: 22px;/*25px;*/
+        text-align: center;
+    }
+    .team-role{
+        margin-top: 5px;/*5px;*/
+        font-size: 20px;/*22px;*/
+        text-align: center;
+    }
+    .team-info{
+        width: 300px;/*500px;*/
+        height: 300px;/*500px;*/
+        margin-left: 40px;/*500px;*/
+    }
+    .team-sub-info{
+        font-size: 18px;/*20px;*/
+    }
+    
+    .portf-cat{
+        flex-wrap: wrap;
+    }
+    .portf-bridal{
+        width: 300px;/*430px;*/
+        height: 300px;/*370px;*/
+        margin-bottom: 25px;
+    }
+    .portf-no-makeup{
+        width: 300px;/*430px;*/
+        height: 300px;/*370px;*/
+        margin-bottom: 25px;
+    }
+    .portf-trans{
+        width: 300px;/*430px;*/
+        height: 300px;/*370px;*/
+        margin-bottom: 25px;
+    }
+    .port-img{
+        width: 280px;/*300px;*/
+        height: 220px;/*300px;*/
+    }
+    .port-heading{
+        font-size: 20px;
+        margin-bottom: 10px;
+        margin-top: 5px;
+    }
+    .button-click{
+        margin-top: 10px;/*8px;*/
+        margin-left: 80px;
+        width: 150px;/*200px;*/
+        height: 40px;/*40px;*/
+        background-color: rgb(196, 184, 206);
+        font-size: 20px;
+    }
+    
+    .look-img{
+        height: 300px;/*400px;*/
+        width: 300px;/*400px;*/
+    }
+    .sub-heading{
+        font-size: 35px;/*35px;*/
+    }
+    .grid-item{
+        flex-wrap: wrap;
+    }
+    .beauty-services{
+        width: 300px;/*500px;*/
+        height: 300px;/*500px;*/
+        margin-left: 40px;/*500px;*/
+    }
+    .beauty-services p{
+        font-size: 18px;/*25px;*/
+    }
+    .copyright{
+        margin-top: 160px;
+        
+    }
+    .testimonials{
+        margin-top: 40px;
+        margin-left: 35px;/*300px;*/
+        flex-wrap: wrap;
+    }
+    .test-img{
+        width: 300px;/*1000px;*/
+        height: 100px;/*300px;*/
+    }
+    .contact-i{
+        font-size: 18px;/*25px;*/
+        text-align: center;
+    }
+    .contact-p{
+        font-size: 18px;/*25px;*/
+        margin-top: 25px;/*30px;*/
+        margin-left: 40px;/*70px;*/
+    }
+    .get-in-touch{
+        width: 250px;/*400px;*/
+        height: 180px;/*300px;*/
+        margin-left: 80px;/*8px;*/
+    }
+    .contact-details{
+        width: 320px;/*500px;*/
+        height: 300px;/*500px;*/
+        margin-left: 40px;/*500px;*/
+    }
+    .studio-courses{
+        flex-wrap: wrap;
+    }
+    .studio-bridal{
+        width: 300px;/*430px;*/
+        height: 300px;/*370px;*/
+        margin-bottom: 25px;
+    }
+    .studio-hairstyle{
+        width: 300px;/*430px;*/
+        height: 300px;/*370px;*/
+        margin-bottom: 25px;
+    }
+    .studio-makeup{
+        width: 300px;/*430px;*/
+        height: 300px;/*370px;*/
+        margin-bottom: 25px;
+    }
+    .slideshow-container {
+        width: 380px;/*1250px;*/
+    }
+    .slideshow-studio{
+        width: 900px;/*1000px;*/
+        height: 300px;/*500px;*/
+    }
+    .prev, .next {
+        width: 4px;
+        height: 5px;
+        margin-top: -22px;
+        font-size: 10px;
+      }
+      .dot {
+        height: 10px;
+        width: 10px;
+    }
+    .address-info{
+        font-size: 20px;
+        margin-left: 80px;    
+    }
+    .dropbtn {
+        padding: 10px;
+        font-size: 22px;
+      }
+      .dropdown {
+        width: 250px;
+        height: 20px;
+        padding: 10px;;
+      }
+      .services-list{
+        margin: auto;
+        }
+      .dropdown-content{
+        margin-left: 25px;
+        width: 210px;
+        height: auto;
+      }
+      .dropdown-content p{
+        font-size: 18px;
+        margin-left: 12px;
+        margin-bottom: 5px;
+        margin-top: 7px;
+      }
+      .dropdown:hover .dropdown-content {display: block;}
+      
+      .course-img{
+        width: 350px;
+        margin-left: 18px;
+      }
+      .Button{
+        margin: auto;
+        width: 270px;
+        height: 20px;
+        margin-top: 20px;
+      }
+      .course-button{
+        margin: auto;
+        width: 270px;
+        height: 50px;
+      }
+  }
