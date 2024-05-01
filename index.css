@@ -517,11 +517,11 @@ body{
         margin-left: 12px;
         margin-right: 0px;/*45px;*/
         padding: 2px;/*5px;*/
-        font-size: 25px;/*60px;*/
+        font-size: 27px;/*60px;*/
     }
     .nav-1 h1{
         text-align: center;
-        margin-left: 10px;/*100px;*/
+        margin-left: 15px;/*100px;*/
     }
     .social_media{
         margin-left: 8px;/*60px;*/ 
@@ -532,8 +532,8 @@ body{
         margin-left: 8px;/*20px;*/
         border-radius: 60px;
         box-shadow: 0 0 2px black;
-        padding: 5px;
-        font-size: 10px;
+        padding: 5px;   
+        font-size: 15px;
     }
     .social_media i:hover{
         box-shadow: 0 0 2px black;
@@ -549,6 +549,8 @@ body{
         padding: 8px;/*30px;*/
         font-size: 13px;/*18px;*/
         margin-top: 0px;/*25px;*/
+        font-weight: bold;
+        color: #49243E;
         border-bottom: 2px solid transparent;
     }
     .nav-2 p:hover{
