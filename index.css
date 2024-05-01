@@ -700,14 +700,14 @@ body{
     }
     .beauty-services{
         width: 300px;/*500px;*/
-        height: 300px;/*500px;*/
+        height: 150px;/*500px;*/
         margin-left: 40px;/*500px;*/
     }
     .beauty-services p{
-        font-size: 18px;/*25px;*/
+        font-size: 16px;/*25px;*/
     }
     .copyright{
-        margin-top: 180px;
+        margin-top: 200px;
         
     }
     .testimonials{
